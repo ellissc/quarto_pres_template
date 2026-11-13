@@ -1,0 +1,81 @@
+---
+title: "Presentation Title"
+subtitle: "Optional subtitle"
+author: "Your Name"
+date: today
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    # footnotes-hover: true
+    # reference-location: document   # hover popups need footnotes moved off the slide body
+bibliography: references.bib
+---
+
+## {.title-slide-blank background-color="#ffffff"}
+
+<!-- Intentionally blank slide: use as a section opener, a pause, or a full-bleed background. -->
+
+## Header with body text & speaker notes
+
+Body text goes here. Keep it short; say the rest out loud.
+
+- A supporting point
+- Another supporting point
+
+::: {.notes}
+Speaker notes go here. Press `S` in the browser to open the speaker view.
+
+- Remind yourself of the story behind this slide
+- Timing: ~2 minutes
+:::
+
+## Header with footnotes
+
+A claim that needs a side comment.[^1] And another one that needs a source note.[^2]
+
+[^1]: This footnote shows in a popup when you hover over its number.
+
+[^2]: Footnotes can contain *formatting*, links, and even citations [@knuth1984].
+
+## Header with an image
+
+![Caption for the image (optional)](images/brain.jpg){fig-align="center" width="60%"}
+
+## Header with two images
+
+:::: {.columns align="center"}
+::: {.column width="48%"}
+![Left image](images/syntax.jpg)
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+![Right image](images/shaken_spear.jpg)
+:::
+::::
+
+## Incremental bullet points
+
+::: {.incremental}
+- First point appears on click
+- Then the second
+- Then the third
+:::
+
+::: {.fragment}
+A non-list element can also be revealed with `.fragment`.
+:::
+
+## Citations
+
+In-text citation: @knuth1984 argued for literate programming; parenthetical form [@knuth1984]; with a locator [@knuth1984, pp. 97-111]; multiple sources [@knuth1984; @wickham2019].
+
+Narrative: @wickham2019 describe a set of packages for data science.
+
+## References {.smaller}
+
+::: {#refs}
+:::

@@ -1,0 +1,14 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+// Body text font (Reveal.js uses $font-family-sans-serif for base slide text)
+$font-family-sans-serif: Georgia, serif !default;
+
+// Heading font
+$presentation-heading-font: "EB Garamond", Georgia, serif !default;
+
+// Font size
+$presentation-font-size-root: 34px !default;
+
+/*-- scss:rules --*/
